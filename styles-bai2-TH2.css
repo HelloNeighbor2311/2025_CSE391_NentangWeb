@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-image: url(./images/places/ocean.jpg);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px orange solid;
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px wheat solid;
+  margin-right: 0.5rem;
+  gap: 20px;
+}
+
+#page-logo a {
+  color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 200%;
+  margin-left: 0.5rem;
+}
+
+header nav ul li {
+  margin: 5px 0px;
+  color: yellow;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px pink solid;
+  background-image: url(./images/places/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  margin: 60px 0px 180px;
+  border-radius: 5px;
+}
+
+#hero-content h1 {
+  margin: 20px 200px 10px;
+}
+
+#hero-content p {
+  margin-bottom: 10px;
+}
+
+.discover-button {
+  background-color: yellow;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  justify-self: center;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discover-button a {
+  color: black;
+}
+
+main {
+  border: 5px purple solid;
+  background-color: rgb(185, 249, 249);
+}
+
+#highlights h2 {
+  text-align: center;
+  margin: 30px 0 20px;
+  text-transform: uppercase;
+}
+
+#destinations {
+  margin: 0px 70px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#destinations img {
+  width: 460px;
+  height: 185px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.destination p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.destination p strong {
+  color: rgb(79, 249, 192);
+}
+footer {
+  background-color: black;
+  border: 5px red solid;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
