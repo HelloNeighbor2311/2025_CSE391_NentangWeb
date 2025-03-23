@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > a {
+  padding: 20px;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+nav > ul > li > input {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+nav > ul > li > button {
+  padding: 10px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: green solid 2px;
+  color: green;
+  cursor: pointer;
+}
+
+nav > ul > li > button:hover {
+  background-color: green;
+  color: #000000;
+}
+
+nav > ul > li > a:hover {
+  color: rgb(121, 121, 121);
+}
+
+.main {
+  margin: 30px 50px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-left > button {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.action-middle > input {
+  padding: 5px 10px;
+}
+
+.action-middle > button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.action-right > select {
+  padding: 5px 10px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+tr > td {
+  padding: 10px;
+}
+
+tbody > tr > td {
+  border-bottom: black solid 1px;
+}
+
+tbody > tr > td > button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.onAdd, .onEdit {
+  background-color: #f2f2f2;
+  margin: auto;
+  width: 50%;
+}
+
+.onAdd > h2, .onEdit > h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.onAdd > div > input, .onEdit > div > input {
+  width: 95%;
+  padding: 5px;
+}
+
+.onAdd > div, .onEdit > div {
+  padding: 5px;
+}
+
+.onAdd > button, .onEdit > button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
