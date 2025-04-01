@@ -30,15 +30,24 @@ function BookForm({ onAdd }) {
             <h2>Thêm sách</h2>
             <div>
                 <label>Tiêu đề: </label>
-                <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+                <input 
+                type="text" 
+                value={title} 
+                onChange={(e) => setTitle(e.target.value)} />
             </div>
             <div>
                 <label>Tác giả: </label>
-                <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} />
+                <input 
+                type="text" 
+                value={author} 
+                onChange={(e) => setAuthor(e.target.value)} />
             </div>
             <div>
                 <label>Năm: </label>
-                <input type="number" value={year} onChange={(e) => setYear(e.target.value)} />
+                <input 
+                type="number" 
+                value={year} 
+                onChange={(e) => setYear(e.target.value)} />
             </div>
             <button type="submit">Thêm sách</button>
         </form>
